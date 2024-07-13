@@ -1,0 +1,23 @@
+name,type,amount,date,category
+uang saku,income,500000,01/07/2024,salary
+beli makanan,expense,20000,01/07/2024,food and drinks
+beli minuman,expense,10000,01/07/2024,food and drinks
+bayar ojek online,expense,15000,01/07/2024,others
+beli makanan,expense,20000,02/07/2024,food and drinks
+beli minuman,expense,10000,02/07/2024,food and drinks
+bayar ojek online,expense,15000,02/07/2024,others
+beli makanan,expense,20000,03/07/2024,food and drinks
+beli minuman,expense,10000,03/07/2024,food and drinks
+bayar ojek online,expense,15000,03/07/2024,others
+beli makanan,expense,20000,04/07/2024,food and drinks
+beli minuman,expense,10000,04/07/2024,food and drinks
+bayar ojek online,expense,15000,04/07/2024,others
+beli makanan,expense,20000,05/07/2025,food and drinks
+beli minuman,expense,10000,05/07/2024,food and drinks
+bayar ojek online,expense,15000,05/07/2024,others
+beli makanan,expense,20000,06/07/2025,food and drinks
+beli minuman,expense,10000,06/07/2024,food and drinks
+bayar ojek online,expense,15000,06/07/2024,others
+beli makanan,expense,20000,07/07/2025,food and drinks
+beli minuman,expense,10000,07/07/2024,food and drinks
+bayar ojek online,expense,15000,07/07/2024,others

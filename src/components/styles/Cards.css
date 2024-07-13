@@ -1,0 +1,29 @@
+.card {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  min-width: 400px;
+  margin: 1rem;
+  flex: 1;
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+}
+
+.card p {
+  margin: 0;
+}
+
+.ant-card-head-title {
+  margin: 0rem;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  gap: 0px;
+}
