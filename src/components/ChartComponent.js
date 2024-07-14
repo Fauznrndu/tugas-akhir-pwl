@@ -58,7 +58,7 @@ const ChartComponent = ({ sortedTransactions }) => {
 
   const config = {
     data: Object.values(finalSpendings2),
-    width: 850,
+    width: 900,
     xField: "date",
     yField: "amount",
   };
@@ -68,16 +68,16 @@ const ChartComponent = ({ sortedTransactions }) => {
 
   return (
     <div className="chart-wrapper">
-      <div style={{}}>
-        <h2>Your Analitics</h2>
+      <div style={{}} className="line">
+        <h2>Spending Analitics</h2>
         <Line
           {...config}
           onReady={(chartInstance) => (lineChart = chartInstance)}
         />
       </div>
-      <div style={{}}>
-        <h2>Your Spendings</h2>
-        <Pie
+      <div style={{}} className="pie">
+        <h2>Total Spendings</h2>
+        <Pie 
           {...spendingConfig}
           onReady={(chartInstance) => (pieChart = chartInstance)}
         />

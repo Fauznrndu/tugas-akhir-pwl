@@ -1,4 +1,4 @@
-.chart {
+/* .chart {
   height: auto;
   padding: 2rem;
   border-radius: 0;
@@ -8,18 +8,28 @@
   -o-border-radius: 0;
   box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
   margin: 2rem;
-}
+} */
 
 .chart-wrapper {
   display: flex;
   justify-content: space-between;
   height: auto;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
+  /* box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75); */
+  margin: 1rem;
+}
+
+.line {
   box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
-  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.pie {
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  padding: 0.5rem;
 }
